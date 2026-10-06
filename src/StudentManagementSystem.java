@@ -51,7 +51,7 @@ public class StudentManagementSystem {
     static final String FILE_NAME = "data/students.txt";
 
     public static void main(String[] args) {
-
+        System.out.println("Hello");
         loadStudents();
 
         while (true) {
